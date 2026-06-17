@@ -40,10 +40,10 @@ section {
 .portfolio-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 1em 0;
 }
-.portfolio-container article {
+.portfolio-item {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 1em;
@@ -54,19 +54,19 @@ section {
     transition: transform 0.3s;
     text-align: center;
 }
-.portfolio-container article h3{
+.portfolio-item h3{
     font-weight: bold;
     margin-bottom: 0.5em;
 }
-.portfolio-container article p {
+.portfolio-item p {
     margin-bottom: 0.5em;
     color: #666;
 }
-.portfolio-container article img {
+.portfolio-item img {
     width: 100%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-.portfolio-container article:hover {
+.portfolio-item:hover {
     transform: scale(1.05);
 }
 #footer {
