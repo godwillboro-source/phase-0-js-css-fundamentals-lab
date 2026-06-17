@@ -1,13 +1,14 @@
 .navbar {
   background-color: #333;
   padding: 1em;
-  font size: 1.2em;
+  font-size: 1.2em;
   text-align: center;
   position: fixed;
   width: 100%;
   top: 0;
-  zindex: 1000;
+  z-index: 1000;
   margin: 0 1em;
+  
 }
 ul {
   list-style: none;
